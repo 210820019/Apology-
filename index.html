@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry, Kashu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f3e6f5, #e1f5f2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+        }
+        .container h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #ff7a8a;
+        }
+        .container p {
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            color: #555;
+        }
+        .container button {
+            background: #ff7a8a;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .container button:hover {
+            background: #ff4a60;
+        }
+        .heart {
+            font-size: 4rem;
+            color: #ff7a8a;
+            animation: heartbeat 1s infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤️</div>
+        <h1>I'm Sorry, Kashu</h1>
+        <p>I never meant to upset you. You're my everything, and it breaks my heart knowing I hurt you.</p>
+        <p>Will you forgive me? I promise to make it up to you and cherish every moment we share.</p>
+        <button onclick="alert('I love you, Kashu! ❤️')">Forgive Me?</button>
+    </div>
+</body>
+</html>
